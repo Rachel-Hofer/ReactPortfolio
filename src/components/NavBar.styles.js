@@ -1,8 +1,13 @@
 export const styles = theme => ({
     navBar: {
         height: "6vh",
-        backgroundColor: "#FEE6FC",
-        position: "fixed"
+        backgroundColor: "rgba(0,0,0,0.9)",
+        position: "fixed",
+        display: "flex",
+        justifyContent: "center"
+    },
+    menuIcon: {
+        color: "#ffffff"
     },
     backgroundImage: {
         width: "50%",
