@@ -11,7 +11,7 @@ export const styles = theme => ({
     },
     backgroundImage: {
         width: "50%",
-        marginTop: '20vh',
+        marginTop: '10vh',
         position: "absolute",
         zIndex: "5",
         cursor: "pointer",
@@ -25,11 +25,19 @@ export const styles = theme => ({
         display: "flex",
         justifyContent: "center"
     },
-    loveWhatYouDo: {
+    name: {
         fontFamily: "Caveat, cursive",
-        marginTop: '48vh',
-        fontSize: "60px",
-        position: "relative",
+        marginTop: '36vh',
+        fontSize: "90px",
+        position: "absolute",
         zIndex: "10"
+    },
+    title: {
+        fontFamily: "Open sans",
+        marginTop: '46vh',
+        fontSize: "30px",
+        position: "absolute",
+        zIndex: "10",
+        marginLeft: "40px"
     }
 })
