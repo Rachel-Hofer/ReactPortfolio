@@ -9,20 +9,60 @@ export const styles = theme => ({
     menuIcon: {
         color: "#ffffff"
     },
+    backgroundImageDiv: {
+        display: "flex",
+        justifyContent: "center"
+    },
     backgroundImage: {
         width: "50%",
         marginTop: '20vh',
         position: "absolute",
         zIndex: "5",
+        // cursor: "pointer",
+        // transition: "all .2s ease-in-out",
+        // "&:hover": {
+        //     transform: "scale(1.1)",
+        // },
+    },
+    categoryOneImage: {
+        width: "14%",
+        marginTop: '16vh',
+        position: "absolute",
+        zIndex: "7",
         cursor: "pointer",
         transition: "all .2s ease-in-out",
+        marginLeft: "24vw",
         "&:hover": {
             transform: "scale(1.1)",
         },
     },
-    backgroundImageDiv: {
-        display: "flex",
-        justifyContent: "center"
+    categoryName: {
+        fontFamily: "Caveat, cursive",
+        marginTop: '22vh',
+        fontSize: "30px",
+        position: "absolute",
+        marginLeft: "24vw",
+        zIndex: "10"
+    },
+    categoryTwoImage: {
+        width: "22%",
+        marginTop: '70vh',
+        position: "absolute",
+        zIndex: "7",
+        cursor: "pointer",
+        transition: "all .2s ease-in-out",
+        marginLeft: "70vw",
+        "&:hover": {
+            transform: "scale(1.1)",
+        },
+    },
+    categoryNameTwo: {
+        fontFamily: "Caveat, cursive",
+        marginTop: '79vh',
+        fontSize: "54px",
+        position: "absolute",
+        marginLeft: "71vw",
+        zIndex: "10"
     },
     name: {
         fontFamily: "Caveat, cursive",
