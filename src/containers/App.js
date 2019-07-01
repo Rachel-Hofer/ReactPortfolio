@@ -4,12 +4,14 @@ import React from 'react';
 import './App.css';
 import NavBar from '../components/NavBar';
 import MainBackground from '../components/MainBackground';
+import AboutMe from '../components/AboutMe';
 
 function App() {
   return (
     <div>
       <NavBar />
       <MainBackground />
+      <AboutMe />
     </div>
   );
 }

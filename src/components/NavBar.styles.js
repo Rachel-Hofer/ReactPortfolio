@@ -16,7 +16,6 @@ export const styles = theme => ({
         zIndex: "5",
         cursor: "pointer",
         transition: "all .2s ease-in-out",
-        // boxShadow: "0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)",
         "&:hover": {
             transform: "scale(1.1)",
         },
@@ -39,5 +38,30 @@ export const styles = theme => ({
         position: "absolute",
         zIndex: "10",
         marginLeft: "40px"
+    },
+    spaceFiller: {
+        height: "100vh"
+    },
+    flexContainer: {
+        padding: 0,
+        margin: 0,
+        listStyle: "none",
+        display: 'flex',
+        justifyContent: "space-around",
+    },
+    flexItem: {
+        background: "#D8F7FC",
+        padding: "5px",
+        width: "300px",
+        height: "250px",
+        marginBottom: "30px",
+        lineHeight: "245px",
+        color: "rgba(0,0,0,0.9)",
+        fontWeight: "bold",
+        fontSize: "3em",
+        textAlign: "center",
+        fontFamily: "Caveat, cursive",
+        justifyContent: "center",
+        boxShadow: "0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)",
     }
 })

@@ -19,7 +19,13 @@ class AboutMe extends Component {
 
         return (
             <div>
-
+                <div className={classes.spaceFiller}></div>
+                <div className={classes.flexContainer}>
+                    <li className={classes.flexItem}>ONE</li>
+                    <li className={classes.flexItem}>TWO</li>
+                    <li className={classes.flexItem}>THREE</li>
+                    <li className={classes.flexItem}>FOUR</li>
+                </div>
             </div>
         );
     }
