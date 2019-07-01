@@ -11,7 +11,7 @@ export const styles = theme => ({
     },
     backgroundImage: {
         width: "50%",
-        marginTop: '10vh',
+        marginTop: '20vh',
         position: "absolute",
         zIndex: "5",
         cursor: "pointer",
@@ -26,18 +26,18 @@ export const styles = theme => ({
     },
     name: {
         fontFamily: "Caveat, cursive",
-        marginTop: '36vh',
+        marginTop: '46vh',
         fontSize: "90px",
         position: "absolute",
         zIndex: "10"
     },
     title: {
         fontFamily: "Open sans",
-        marginTop: '46vh',
+        marginTop: '56vh',
         fontSize: "30px",
         position: "absolute",
         zIndex: "10",
-        marginLeft: "40px"
+        marginLeft: "10px"
     },
     spaceFiller: {
         height: "100vh"
@@ -50,7 +50,8 @@ export const styles = theme => ({
         justifyContent: "space-around",
     },
     flexItem: {
-        background: "#D8F7FC",
+        // background: "#D8F7FC",
+        backgroundImage: "linear-gradient(to right, #D8F7FC, #59def3)",
         padding: "5px",
         width: "300px",
         height: "250px",
@@ -63,5 +64,10 @@ export const styles = theme => ({
         fontFamily: "Caveat, cursive",
         justifyContent: "center",
         boxShadow: "0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)",
+        cursor: "pointer",
+        transition: "all .2s ease-in-out",
+        "&:hover": {
+            transform: "scale(1.1)",
+        },
     }
 })

@@ -11,7 +11,7 @@ function App() {
     <div>
       <NavBar />
       <MainBackground />
-      <AboutMe />
+      {/* <AboutMe /> */}
     </div>
   );
 }
