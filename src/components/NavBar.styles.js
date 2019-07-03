@@ -18,56 +18,51 @@ export const styles = theme => ({
         marginTop: '15vh',
         position: "absolute",
         zIndex: "5",
-        // cursor: "pointer",
-        // transition: "all .2s ease-in-out",
-        // "&:hover": {
-        //     transform: "scale(1.1)",
-        // },
     },
     categoryOneImage: {
-        width: "14%",
-        marginTop: '11vh',
+        width: "18%",
+        marginTop: '8vh',
         position: "absolute",
         zIndex: "7",
         cursor: "pointer",
         transition: "all .2s ease-in-out",
-        marginLeft: "24vw",
+        marginLeft: "22vw",
         "&:hover": {
             transform: "scale(1.1)",
         },
     },
     categoryName: {
         fontFamily: "Caveat, cursive",
-        marginTop: '17vh',
-        fontSize: "32px",
+        marginTop: '16vh',
+        fontSize: "36px",
         position: "absolute",
-        marginLeft: "23vw",
+        marginLeft: "22vw",
         zIndex: "10",
         cursor: "pointer",
         transition: "all .2s ease-in-out",
         "&:hover": {
             transform: "scale(1.1)",
-            fontSize: "34px",
+            fontSize: "38px",
         },
     },
     categoryTwoImage: {
         width: "22%",
-        marginTop: '68vh',
+        marginTop: '66vh',
         position: "absolute",
         zIndex: "7",
         cursor: "pointer",
         transition: "all .2s ease-in-out",
-        marginLeft: "70vw",
+        marginLeft: "68vw",
         "&:hover": {
             transform: "scale(1.1)",
         },
     },
     categoryNameTwo: {
         fontFamily: "Caveat, cursive",
-        marginTop: '77vh',
+        marginTop: '75vh',
         fontSize: "54px",
         position: "absolute",
-        marginLeft: "71vw",
+        marginLeft: "69vw",
         zIndex: "10",
         cursor: "pointer",
         transition: "all .2s ease-in-out",
@@ -75,6 +70,21 @@ export const styles = theme => ({
             transform: "scale(1.1)",
             fontSize: "56px",
         },
+    },
+    categoryThreeImage: {
+        marginTop: '32vh',
+        position: "absolute",
+        zIndex: "7",
+        marginLeft: "70vw",
+        width: "10vw"
+    },
+    categoryFourImage: {
+        width: "34vh",
+        marginTop: '45vh',
+        position: "absolute",
+        zIndex: "7",
+        marginLeft: "16vw",
+        transform: "rotate(-45deg)"
     },
     name: {
         fontFamily: "Caveat, cursive",
@@ -130,7 +140,13 @@ export const styles = theme => ({
         justifyContent: "space-between"
     },
     icon: {
-        color: "rgb(28, 58, 228, .7)",
-        fontSize: "5vh"
+        color: "rgba(0,0,0,0.7)",
+        backgroundImage: "linear-gradient(to right, #e7fcfd, #10cfd5)",
+        fontSize: "5vh",
+        borderRadius: "5px",
+        transition: "all .2s ease-in-out",
+        "&:hover": {
+            transform: "scale(1.1)",
+        },
     }
 })

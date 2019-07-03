@@ -7,6 +7,8 @@ import MainBackground from '../components/MainBackground';
 // import AboutMe from '../components/AboutMe';
 import CategoryOne from '../components/CategoryOne';
 import CategoryTwo from '../components/CategoryTwo';
+import CategoryThree from '../components/CategoryThree';
+import CategoryFour from '../components/CategoryFour';
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
       <MainBackground />
       <CategoryOne />
       <CategoryTwo />
-      {/* <AboutMe /> */}
+      <CategoryThree />
+      <CategoryFour />
     </div>
   );
 }
