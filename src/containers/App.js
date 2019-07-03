@@ -11,7 +11,7 @@ import CategoryTwo from '../components/CategoryTwo';
 function App() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <MainBackground />
       <CategoryOne />
       <CategoryTwo />

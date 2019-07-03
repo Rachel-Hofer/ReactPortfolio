@@ -5,6 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 // Local
 import { styles } from "./NavBar.styles.js";
+import ContactMe from "./ContactMe";
 
 class MainBackground extends Component {
     constructor(props) {
@@ -22,6 +23,7 @@ class MainBackground extends Component {
                 <img className={classes.backgroundImage} src={require('./waterColor.jpg')} alt="Love What You Do" />
                 <span className={classes.name}>Rachel Hofer</span>
                 <span className={classes.title}>UI Software Engineer</span>
+                <ContactMe />
             </div>
         );
     }

@@ -15,7 +15,7 @@ export const styles = theme => ({
     },
     backgroundImage: {
         width: "50%",
-        marginTop: '20vh',
+        marginTop: '15vh',
         position: "absolute",
         zIndex: "5",
         // cursor: "pointer",
@@ -26,7 +26,7 @@ export const styles = theme => ({
     },
     categoryOneImage: {
         width: "14%",
-        marginTop: '16vh',
+        marginTop: '11vh',
         position: "absolute",
         zIndex: "7",
         cursor: "pointer",
@@ -38,15 +38,21 @@ export const styles = theme => ({
     },
     categoryName: {
         fontFamily: "Caveat, cursive",
-        marginTop: '22vh',
-        fontSize: "30px",
+        marginTop: '17vh',
+        fontSize: "32px",
         position: "absolute",
-        marginLeft: "24vw",
-        zIndex: "10"
+        marginLeft: "23vw",
+        zIndex: "10",
+        cursor: "pointer",
+        transition: "all .2s ease-in-out",
+        "&:hover": {
+            transform: "scale(1.1)",
+            fontSize: "34px",
+        },
     },
     categoryTwoImage: {
         width: "22%",
-        marginTop: '70vh',
+        marginTop: '68vh',
         position: "absolute",
         zIndex: "7",
         cursor: "pointer",
@@ -58,26 +64,32 @@ export const styles = theme => ({
     },
     categoryNameTwo: {
         fontFamily: "Caveat, cursive",
-        marginTop: '79vh',
+        marginTop: '77vh',
         fontSize: "54px",
         position: "absolute",
         marginLeft: "71vw",
-        zIndex: "10"
+        zIndex: "10",
+        cursor: "pointer",
+        transition: "all .2s ease-in-out",
+        "&:hover": {
+            transform: "scale(1.1)",
+            fontSize: "56px",
+        },
     },
     name: {
         fontFamily: "Caveat, cursive",
-        marginTop: '46vh',
+        marginTop: '44vh',
         fontSize: "90px",
         position: "absolute",
         zIndex: "10"
     },
     title: {
         fontFamily: "Open sans",
-        marginTop: '56vh',
+        marginTop: '54vh',
         fontSize: "30px",
         position: "absolute",
         zIndex: "10",
-        marginLeft: "10px"
+        marginLeft: "10px",
     },
     spaceFiller: {
         height: "100vh"
@@ -109,5 +121,16 @@ export const styles = theme => ({
         "&:hover": {
             transform: "scale(1.1)",
         },
+    },
+    iconRow: {
+        display: "flex",
+        position: "absolute",
+        bottom: 20,
+        width: "200px",
+        justifyContent: "space-between"
+    },
+    icon: {
+        color: "rgb(28, 58, 228, .7)",
+        fontSize: "5vh"
     }
 })
