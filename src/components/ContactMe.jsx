@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 // MUI
 import { withStyles } from '@material-ui/core/styles';
-import { Instagram, LinkedinBox, NoteOutline } from "mdi-material-ui";
+import { Instagram, LinkedinBox, NoteOutline, GithubBox } from "mdi-material-ui";
 import Tooltip from '@material-ui/core/Tooltip';
 
 // Local
@@ -26,6 +26,9 @@ class MainBackground extends Component {
                 </Tooltip>
                 <Tooltip title="LinkedIn" placement="bottom">
                     <LinkedinBox className={classes.icon} />
+                </Tooltip>
+                <Tooltip title="GitHub" placement="bottom">
+                    <GithubBox className={classes.icon} />
                 </Tooltip>
                 <Tooltip title="Resume" placement="bottom">
                     <NoteOutline className={classes.icon} />

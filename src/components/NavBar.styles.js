@@ -143,7 +143,7 @@ export const styles = theme => ({
         display: "flex",
         position: "absolute",
         bottom: 20,
-        width: "175px",
+        width: "200px",
         justifyContent: "space-between"
     },
     icon: {
