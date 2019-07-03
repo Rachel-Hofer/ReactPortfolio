@@ -148,7 +148,7 @@ export const styles = theme => ({
     },
     icon: {
         color: "rgba(0,0,0,0.7)",
-        backgroundImage: "linear-gradient(to right, #e7fcfd, #10cfd5)",
+        // backgroundImage: "linear-gradient(to right, #e7fcfd, #10cfd5)",
         fontSize: "5vh",
         borderRadius: "5px",
         transition: "all .2s ease-in-out",
