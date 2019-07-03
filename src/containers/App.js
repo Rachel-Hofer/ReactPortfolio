@@ -2,7 +2,7 @@ import React from 'react';
 
 // Local
 import './App.css';
-import NavBar from '../components/NavBar';
+// import NavBar from '../components/NavBar';
 import MainBackground from '../components/MainBackground';
 // import AboutMe from '../components/AboutMe';
 import CategoryOne from '../components/CategoryOne';
