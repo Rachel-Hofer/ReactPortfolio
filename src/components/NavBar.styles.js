@@ -86,6 +86,13 @@ export const styles = theme => ({
         marginLeft: "16vw",
         transform: "rotate(-45deg)"
     },
+    categoryFiveImage: {
+        marginTop: '69vh',
+        position: "absolute",
+        zIndex: "7",
+        marginLeft: "16vw",
+        width: "13vh"
+    },
     name: {
         fontFamily: "Caveat, cursive",
         marginTop: '44vh',

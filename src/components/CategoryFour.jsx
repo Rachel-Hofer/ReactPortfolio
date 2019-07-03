@@ -19,7 +19,8 @@ class CategoryFour extends Component {
 
         return (
             <div>
-                <img className={classes.categoryFourImage} src={require('./biggerSpill.png')} alt="Other" />
+                <img className={classes.categoryFourImage} src={require('./biggerSpill.png')} alt="Watermark" />
+                <img className={classes.categoryFiveImage} src={require('./lightGreen.png')} alt="Watermark" />
                 {/* <span className={classes.categoryThreeName}>Professional Background</span> */}
             </div>
         );
