@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
+// import { Router, Link } from "react-router-dom";
 
 // MUI
 import { withStyles } from '@material-ui/core/styles';
@@ -23,16 +23,16 @@ class MainBackground extends Component {
         return (
             <div className={classes.iconRow}>
                 <Tooltip title="Instagram" placement="bottom">
-                    <Instagram className={classes.icon} /> <Link to={'https://www.instagram.com/rachel.hofer/'}></Link>
+                    <a href={'https://www.instagram.com/rachel.hofer/'}><Instagram className={classes.icon} /> </a>
                 </Tooltip>
                 <Tooltip title="LinkedIn" placement="bottom">
-                    <LinkedinBox className={classes.icon} />
+                    <a href={'https://www.linkedin.com/in/rachel-hofer/'}><LinkedinBox className={classes.icon} /></a>
                 </Tooltip>
                 <Tooltip title="GitHub" placement="bottom">
-                    <GithubBox className={classes.icon} />
+                    <a href={'https://github.com/Rachel-Hofer'}><GithubBox className={classes.icon} /></a>
                 </Tooltip>
                 <Tooltip title="Resume" placement="bottom">
-                    <NoteOutline className={classes.icon} />
+                    <a href={'https://docs.google.com/document/d/17F5xdlhEqq5PceTi2IPI8jQX_Ho_d9-VScnWZfq8w34/edit?usp=sharing'}><NoteOutline className={classes.icon} /></a>
                 </Tooltip>
             </div>
         );
