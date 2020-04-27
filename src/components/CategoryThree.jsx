@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 
 // Local
-import { styles } from "./NavBar.styles.js";
+// import { styles } from "./NavBar.styles.js";
 
 class CategoryThree extends Component {
     constructor(props) {
@@ -19,8 +19,7 @@ class CategoryThree extends Component {
 
         return (
             <div>
-                <img className={classes.categoryThreeImage} src={require('./smallBlue.png')} alt="Other" />
-                {/* <span className={classes.categoryThreeName}>Professional Background</span> */}
+
             </div>
         );
     }

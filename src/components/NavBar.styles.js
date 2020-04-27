@@ -15,18 +15,18 @@ export const styles = theme => ({
     },
     backgroundImage: {
         width: "50%",
-        marginTop: '15vh',
+        marginTop: '13vh',
         position: "absolute",
         zIndex: "5",
     },
     categoryOneImage: {
         width: "18%",
-        marginTop: '8vh',
+        marginTop: '7vh',
         position: "absolute",
         zIndex: "7",
         cursor: "pointer",
         transition: "all .2s ease-in-out",
-        marginLeft: "22vw",
+        marginLeft: "20vw",
         "&:hover": {
             transform: "scale(1.1)",
         },
@@ -47,12 +47,12 @@ export const styles = theme => ({
     },
     categoryTwoImage: {
         width: "22%",
-        marginTop: '66vh',
+        marginTop: '70vh',
         position: "absolute",
         zIndex: "7",
         cursor: "pointer",
         transition: "all .2s ease-in-out",
-        marginLeft: "68vw",
+        marginLeft: "70vw",
         "&:hover": {
             transform: "scale(1.1)",
         },
@@ -147,7 +147,7 @@ export const styles = theme => ({
         justifyContent: "space-between"
     },
     icon: {
-        color: "rgba(0,0,0,0.7)",
+        color: "rgba(0,0,0)",
         // backgroundImage: "linear-gradient(to right, #e7fcfd, #10cfd5)",
         fontSize: "5vh",
         borderRadius: "5px",

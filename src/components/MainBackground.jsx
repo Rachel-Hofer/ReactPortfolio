@@ -20,9 +20,9 @@ class MainBackground extends Component {
 
         return (
             <div className={classes.backgroundImageDiv}>
-                <img className={classes.backgroundImage} src={require('./waterColor.jpg')} alt="Love What You Do" />
+                {/* <img className={classes.backgroundImage} src={require('./waterColor.jpg')} alt="Love What You Do" /> */}
                 <span className={classes.name}>Rachel Hofer</span>
-                <span className={classes.title}>UI Software Engineer</span>
+                {/* <span className={classes.title}>UI Software Engineer</span> */}
                 <ContactMe />
             </div>
         );
