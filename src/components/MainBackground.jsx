@@ -19,11 +19,37 @@ class MainBackground extends Component {
         const { classes } = this.props;
 
         return (
-            <div className={classes.backgroundImageDiv}>
-                {/* <img className={classes.backgroundImage} src={require('./waterColor.jpg')} alt="Love What You Do" /> */}
-                <span className={classes.name}>Rachel Hofer</span>
-                {/* <span className={classes.title}>UI Software Engineer</span> */}
-                <ContactMe />
+            <div className={classes.main}>
+                <div className={classes.backgroundImageDiv}>
+                    <img className={classes.backgroundImageOne} src={require('./bike2.jpg')} alt="OceanDriveBike" />
+                    <img className={classes.backgroundImageOne} src={require('./journal.jpg')} alt="Journal" />
+                    <img className={classes.backgroundImageOne} src={require('./me.png')} alt="BridgeBike" />
+                </div>
+                <div className={classes.backgroundImageDiv}>
+                    <img className={classes.backgroundImageTwo} src={require('./bath.jpg')} alt="Bath" />
+                    <img className={classes.backgroundImageTwo} src={require('./balcony.jpg')} alt="Balcony" />
+                </div>
+                <div className={classes.backgroundImageDiv}>
+                    <img className={classes.backgroundImageThree} src={require('./bangs.png')} alt="Bangs" />
+                    <img className={classes.backgroundImageThree} src={require('./chess.png')} alt="Chess" />
+                    <img className={classes.backgroundImageThree} src={require('./bridgebike.jpg')} alt="Bike" />
+                </div>
+                <div className={classes.backgroundImageDiv}>
+                    <img className={classes.backgroundImageTwo} src={require('./color.jpg')} alt="Color" />
+                    <img className={classes.backgroundImageTwo} src={require('./hollis.jpg')} alt="Books" />
+                </div>
+                <div className={classes.backgroundImageDiv}>
+                    <img className={classes.backgroundImageFour} src={require('./monopoly.jpg')} alt="Bangs" />
+                    <img className={classes.backgroundImageFour} src={require('./run.jpg')} alt="Chess" />
+                    <img className={classes.backgroundImageFour} src={require('./food.jpg')} alt="Bike" />
+                </div>
+                <div className={classes.backgroundImageDiv}>
+                    <img className={classes.backgroundImageTwo} src={require('./cat.jpg')} alt="Color" />
+                    <img className={classes.backgroundImageTwo} src={require('./couch.jpg')} alt="Books" />
+                </div>
+                {/* <div className={classes.backgroundImageDiv}>
+                    <ContactMe />
+                </div> */}
             </div>
         );
     }

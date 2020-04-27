@@ -6,18 +6,42 @@ export const styles = theme => ({
         display: "flex",
         justifyContent: "center"
     },
+    main: {
+        backgroundColor: 'black'
+    },
     menuIcon: {
         color: "#ffffff"
     },
     backgroundImageDiv: {
         display: "flex",
+        width: '100%',
         justifyContent: "center"
     },
-    backgroundImage: {
-        width: "50%",
-        marginTop: '13vh',
-        position: "absolute",
-        zIndex: "5",
+    backgroundImageOne: {
+        width: "29.8vh",
+        marginTop: '1vh',
+        marginRight: '10px',
+        // flexGrow: 12,
+        // position: "absolute",
+        // zIndex: "5",
+    },
+    backgroundImageTwo: {
+        height: "19vw",
+        marginTop: '1vh',
+        marginRight: '10px',
+        // flexGrow: 12,
+        // position: "absolute",
+        // zIndex: "5",
+    },
+    backgroundImageThree: {
+        height: "43.1vh",
+        marginTop: '1vh',
+        marginRight: '10px',
+    },
+    backgroundImageFour: {
+        height: "44.3vh",
+        marginTop: '1vh',
+        marginRight: '10px',
     },
     categoryOneImage: {
         width: "18%",
@@ -97,8 +121,8 @@ export const styles = theme => ({
         fontFamily: "Caveat, cursive",
         marginTop: '44vh',
         fontSize: "90px",
-        position: "absolute",
-        zIndex: "10"
+        // position: "absolute",
+        // zIndex: "10"
     },
     title: {
         fontFamily: "Open sans",
@@ -141,7 +165,7 @@ export const styles = theme => ({
     },
     iconRow: {
         display: "flex",
-        position: "absolute",
+        marginTop: '20px',
         bottom: 20,
         width: "200px",
         justifyContent: "space-between"
