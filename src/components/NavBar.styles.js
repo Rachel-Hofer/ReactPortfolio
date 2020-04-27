@@ -9,6 +9,18 @@ export const styles = theme => ({
     main: {
         backgroundColor: 'black'
     },
+    aboutMe: {
+        backgroundColor: 'black',
+        color: 'white',
+        display: "flex",
+        width: '100%',
+        justifyContent: "center",
+        paddingTop: '5vh',
+        paddingBottom: '5vh',
+    },
+    titleName: {
+        fontFamily: 'Monaco',
+    },
     menuIcon: {
         color: "#ffffff"
     },
@@ -34,12 +46,17 @@ export const styles = theme => ({
         // zIndex: "5",
     },
     backgroundImageThree: {
-        height: "43.1vh",
+        height: "46vh",
         marginTop: '1vh',
         marginRight: '10px',
     },
     backgroundImageFour: {
         height: "44.3vh",
+        marginTop: '1vh',
+        marginRight: '10px',
+    },
+    backgroundImageFive: {
+        height: "38vh",
         marginTop: '1vh',
         marginRight: '10px',
     },
